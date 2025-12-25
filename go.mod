@@ -1,6 +1,6 @@
 module github.com/falcosecurity/falcosidekick
 
-go 1.20
+go 1.23.0
 
 require (
 	cloud.google.com/go/functions v1.13.0
@@ -30,7 +30,7 @@ require (
 	github.com/wavefronthq/wavefront-sdk-go v0.12.0
 	github.com/xitongsys/parquet-go v1.6.2
 	github.com/xitongsys/parquet-go-source v0.0.0-20230312005205-fbbcdea5f512
-	golang.org/x/oauth2 v0.8.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.120.0
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
@@ -41,8 +41,7 @@ require (
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.19.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v0.13.0 // indirect
 	cloud.google.com/go/longrunning v0.4.1 // indirect
 	github.com/Azure/azure-amqp-common-go/v4 v4.1.0 // indirect
