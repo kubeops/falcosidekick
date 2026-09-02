@@ -1,6 +1,6 @@
 module github.com/falcosecurity/falcosidekick
 
-go 1.20
+go 1.25
 
 require (
 	cloud.google.com/go/functions v1.13.0
@@ -61,7 +61,7 @@ require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
-	github.com/apache/thrift v0.18.1 // indirect
+	github.com/apache/thrift v0.24.0 // indirect
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/caio/go-tdigest v3.1.0+incompatible // indirect
